@@ -1,0 +1,84 @@
+Informações gerais sobre o assunto:
+
+Código 1369
+Nome: Cadastramento de Condutor Auxiliar - Táxi
+
+
+1 - TAREFAS DO FLUXOGRAMA - (caminho feliz - DEFERIMENTO): 
+
+
+ATENDE BEM - Busca Setor de abertura (Tarefa Automática de Subprocesso Reutilizáve)
+
+Conferir Documentos Atende Bem (Cadastramento de Condutor Auxiliar - Táxi)
+    - Ator: ST-122
+    - Formulário: Conferir Documentos Atende Bem (Cadastramento de Condutor Auxiliar - Táxi)
+    
+
+PORTAL - Conferir Legitimidade (Cadastramento de Condutor Auxiliar - Táxi)
+    - Ator: Grupo Dinamico pela Sigla - Setor Origem
+    - Formulário: Conferir Documentos Portal (Cadastramento de Condutor Auxiliar - Táxi)
+
+Analisar Processo (Cadastramento de Condutor Auxiliar - Táxi)
+    - Ator: ST-122
+    - Formulário: Analisar Processo (Cadastramento de Condutor Auxiliar - Táxi)
+
+Cota Conclusiva (Cadastramento de Condutor Auxiliar - Táxi)
+    - Ator: ST-122
+    - Formulário: Inserir Cota (Cadastramento de Condutor Auxiliar - Táxi)
+
+Alvará Atualizado (Cadastramento de Condutor Auxiliar - Táxi)
+    - Ator: ST-122
+    - Formulário: Inserir Alvará (Cadastramento de Condutor Auxiliar - Táxi)
+
+Carteira do Auxiliar (Cadastramento de Condutor Auxiliar - Táxi)
+    - Ator: ST-122
+    - Formulário: Carteira do Auxiliar (Cadastramento de Condutor Auxiliar - Táxi)
+
+Solicitar Assinatura (Cadastramento de Condutor Auxiliar - Táxi)
+    - Ator: ST-122
+    - Formulário: Solicitar Assinatura 1 (Cadastramento de Condutor Auxiliar - Táxi)
+
+Comunique-se Deferimento (Cadastramento de Condutor Auxiliar - Táxi)
+    - Ator: Interessado do processo
+    - Formulário: Comunique-se 2 (Cadastramento de Condutor Auxiliar - Táxi)
+
+Busca informações do processo (Tarefa Automática de Tarefa de Serviço)
+
+Pesquisa de Satisfação (Cadastramento de Condutor Auxiliar - Táxi)
+    - Ator: ST-122
+    - Formulário: Pesquisa Satisfação (Cadastramento de Condutor Auxiliar - Táxi)
+
+
+2- TAREFAS DO FLUXOGRAMA - (caminho 2 - INDEFERIMENTO): 
+
+Após a tarefa de "cota conclusiva"
+
+Solicitar Assinatura 1 (Cadastramento de Condutor Auxiliar - Táxi)
+    - Ator: ST-122
+    - Formulário: Solicitar Assinatura 1 (Cadastramento de Condutor Auxiliar - Táxi)
+
+Solicitar Assinatura 2 (Cadastramento de Condutor Auxiliar - Táxi)
+    - Ator: ST-122
+    - Formulário: Solicitar Assinatura 2 (Cadastramento de Condutor Auxiliar - Táxi)
+
+Comunique-se Indeferimento (Cadastramento de Condutor Auxiliar - Táxi)
+    - Ator: Interessado do processo
+    - Formulário: Comunique-se 2 (Cadastramento de Condutor Auxiliar - Táxi)
+
+3- TAREFAS DO FLUXOGRAMA - (caminho 3 - Comunique-se): 
+
+Comunique-se 05 dias (Cadastramento de Condutor Auxiliar - Táxi)
+    - Ator: Interessado do processo
+    - Formulário: Comunique-se 1 (Cadastramento de Condutor Auxiliar - Táxi)
+
+Comunique-se 10 dias (Cadastramento de Condutor Auxiliar - Táxi)
+    - Ator: Interessado do processo
+    - Formulário: Comunique-se 1 (Cadastramento de Condutor Auxiliar - Táxi)
+
+Comunique-se 15 dias (Cadastramento de Condutor Auxiliar - Táxi)
+    - Ator: Interessado do processo
+    - Formulário: Comunique-se 1 (Cadastramento de Condutor Auxiliar - Táxi)
+
+Analisar Resposta do Comunique-se (Cadastramento de Condutor Auxiliar - Táxi)
+    - Ator: Interessado do processo
+    - Formulário: Analisar Resposta do Comunique-se (Cadastramento de Condutor Auxiliar - Táxi)
